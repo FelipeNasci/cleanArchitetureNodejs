@@ -50,3 +50,7 @@ git config --local --edit
 ```
 git-commit-msg-linter
 ```
+
+```
+typescript @types/node
+```
