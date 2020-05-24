@@ -54,3 +54,17 @@ git-commit-msg-linter
 ```
 typescript @types/node
 ```
+
+### Typescript Configuration
+
+```
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "module": "commonjs",
+        "target": "ES2019",
+        "esModuleInterop": true,
+        "allowJs": true,
+    }
+}
+```
