@@ -63,6 +63,10 @@ husky
 lint-staged
 ```
 
+```
+jest @types/jest ts-jest
+```
+
 ### Typescript Configuration
 
 **tsconfiguration.json**
