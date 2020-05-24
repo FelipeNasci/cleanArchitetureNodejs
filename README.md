@@ -57,6 +57,8 @@ typescript @types/node
 
 ### Typescript Configuration
 
+**tsconfiguration.json**
+
 ```
 {
     "compilerOptions": {
@@ -65,6 +67,18 @@ typescript @types/node
         "target": "ES2019",
         "esModuleInterop": true,
         "allowJs": true,
+    }
+}
+```
+
+### ESlint configuration
+
+**.eslintrc.json**
+```
+{
+    "extends": "standard-with-typescript",
+    "parserOptions":{
+        "project": "./tsconfig"
     }
 }
 ```
