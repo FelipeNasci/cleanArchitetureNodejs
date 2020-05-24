@@ -55,6 +55,14 @@ git-commit-msg-linter
 typescript @types/node
 ```
 
+```
+husky
+```
+
+```
+lint-staged
+```
+
 ### Typescript Configuration
 
 **tsconfiguration.json**
@@ -80,5 +88,27 @@ typescript @types/node
     "parserOptions":{
         "project": "./tsconfig"
     }
+}
+```
+
+### Husky configuration
+
+**.huskyrc.json**
+```
+{
+    "hooks":{
+        "pre-commit": "lint-staged"
+    }
+}
+```
+
+### Lint-staged configuration
+
+**.lintstagedrc.json**
+```
+{
+    "*.ts":[
+        "eslint 'src/**' --fix" 
+    ]
 }
 ```

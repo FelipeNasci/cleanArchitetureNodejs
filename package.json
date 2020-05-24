@@ -16,7 +16,9 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
-    "git-commit-msg-linter": "^2.4.2"
+    "git-commit-msg-linter": "^2.4.2",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.6"
   },
   "dependencies": {
     "@types/node": "^14.0.5",
