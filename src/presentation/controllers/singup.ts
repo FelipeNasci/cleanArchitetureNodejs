@@ -27,7 +27,7 @@ export class SingUpController implements Controller {
         return badRequest(new InvalidParamError('email'))
       }
     } catch (error) {
-      console.error(error)
+      // console.error(error)
       return {
         statusCode: 500,
         body: new ServerError()
